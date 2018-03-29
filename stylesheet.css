@@ -1,0 +1,154 @@
+html,body{
+	background-image:url("images/background.png");
+	background-repeat:no-repeat; 
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.container{
+	Float:right;
+	color:white;
+	font-size:26pt;
+	margin-top:220px;
+	margin-right:530px;
+}
+
+.waifu1 {
+    background: url('images/mascots/suzu1.png') #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.waifu2 {
+    background: url('images/mascots/suzu4.png') #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.waifu3 {
+    background: url('images/mascots/suzu5.png') #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;	
+	display:inline-block;
+}
+
+.plain {
+    background: #A9A9AF;
+    padding: 20px 20px 20px 20px;
+	display:inline-block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+	background-color:white;
+}
+
+li {
+    position: relative;
+    margin: 3px 3px;
+    display: inline-block;
+}
+
+li > a {
+    display: inline-block;
+    min-width: 140px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 5px;
+    border: 0px solid #373B41;
+    outline: none;
+    background: black;
+    transition: all .2s;
+	border-radius: 10px;
+}
+
+li:hover > a {
+    color: black;
+    background: #eeeeee;
+    border: none
+}
+
+li > ul {
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    max-height: 0;
+    border: 0 solid #373B41;
+    transition: all .3s;
+    z-index: 10;
+	vertical-align:middle;
+	border-radius: 10px;
+	
+}
+
+li:hover > ul {
+    max-height: 700px;
+    border: 0px solid #70293b;
+    transition: max-height 1s, border 1s;
+}
+
+ li > ul > li {
+    display: block;
+}
+
+li > ul > li > a {
+    display: inline-block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    outline: 0;
+    background: white;
+    transition: all 1s;
+}
+
+ li > ul > li > a:hover {
+    color: black;
+    background: #eeeeee;
+	transition: all 0.1s;
+}
+
+nav{
+	text-align: center;
+}
+
+#websites{
+margin-left:120px;
+margin-top:30px;
+}
+
+#searching{
+	margin-top:5px;
+	margin-left:120px;
+}
+
+#main{
+	background-color:#141414;
+	display:inline-block;
+	width: 850px;
+	height: 170px;
+	margin-left:200px;
+	position:relative;
+	opacity:0.9;
+	border-radius: 100px;
+}
+
+form{
+	background:white;
+	Height:8px;
+	text-align:center;
+	outline: 0;
+}
+
+
+form:focus, input:focus{
+    outline:0;
+}
