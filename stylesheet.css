@@ -67,7 +67,7 @@ li > a {
     outline: none;
     background: black;
     transition: all .2s;
-	border-radius: 10px;
+	border-radius: 0px;
 }
 
 li:hover > a {
@@ -86,7 +86,7 @@ li > ul {
     transition: all .3s;
     z-index: 10;
 	vertical-align:middle;
-	border-radius: 10px;
+	border-radius: 0px;
 	
 }
 
@@ -138,7 +138,7 @@ margin-top:30px;
 	margin-left:200px;
 	position:relative;
 	opacity:0.9;
-	border-radius: 100px;
+	border-radius: 0px;
 }
 
 form{
