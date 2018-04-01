@@ -12,8 +12,8 @@ html,body{
 	Float:right;
 	color:white;
 	font-size:26pt;
-	margin-top:220px;
-	margin-right:530px;
+	margin-top:380px;
+	margin-right:785px;
 }
 
 .waifu1 {
@@ -72,7 +72,7 @@ li > a {
 
 li:hover > a {
     color: black;
-    background: #eeeeee;
+    background: #4286f4;
     border: none
 }
 
@@ -135,7 +135,7 @@ margin-top:30px;
 	display:inline-block;
 	width: 850px;
 	height: 170px;
-	margin-left:200px;
+	margin-left:50px;
 	position:relative;
 	opacity:0.9;
 	border-radius: 0px;
